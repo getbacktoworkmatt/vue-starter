@@ -3,14 +3,14 @@ var webpack = require('webpack')
 
 module.exports = {
   entry: './src/main.js',
+  watch: true,
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'build.js'
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.css$/,
         use: [
           'vue-style-loader',

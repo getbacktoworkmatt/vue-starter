@@ -1,6 +1,6 @@
 {
-  "name": "my-project",
-  "description": "A Vue.js project",
+  "name": "tmp-vue",
+  "description": "Personal Vue-js starter template",
   "version": "1.0.0",
   "author": "matthew <matthew.mcarthur91@gmail.com>",
   "license": "MIT",

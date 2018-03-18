@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-    <my-header></my-header>
+  <div id="app" class="test">
+    <my-header/>
     <h1>{{ msg }}</h1>
-    <my-footer></my-footer>
+    <my-footer/>
   </div>
 </template>
 
@@ -25,5 +25,10 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import "./assets/vars.scss";
+@import "./assets/vars2.scss";
+.test {
+  background-color: $third;
+  border: 1px solid black;
+}
 </style>
